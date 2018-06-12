@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/fondoToolbar"
+    android:elevation="4dp"
+    app:titleTextColor="@color/tituloToolbar"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+   <android.support.v7.widget.LinearLayoutCompat
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:orientation="horizontal">
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:src="@drawable/group_95"/>
+
+       <TextView
+           android:layout_gravity="center_vertical"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@android:color/black"
+           android:text="OPCIONES DE RUTA"
+           />
+
+   </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v7.widget.Toolbar>
+
+
+

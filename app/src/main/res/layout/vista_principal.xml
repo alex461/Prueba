@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    >
+
+    <ImageView
+        android:id="@+id/img_cancelar_ventana"
+        android:layout_width="@dimen/iconoVistaPrincipal"
+        android:layout_height="@dimen/iconoVistaPrincipal"
+        android:src="@drawable/group_116"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <ImageView
+        android:id="@+id/imagencentral"
+        android:layout_width="@dimen/iconoVentanaPrincipal"
+        android:layout_height="@dimen/iconoVentanaPrincipal"
+        android:src="@drawable/group_142"
+        android:layout_centerInParent="true"
+
+        />
+    <TextView
+        android:layout_below="@+id/imagencentral"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textTaxiTiempo"
+        android:textSize="@dimen/loreVentanaPrincipal"
+        android:text="@string/loreVentanaPrincipal"
+        android:paddingRight="@dimen/paddinloreVentanaPrincipal"
+        android:paddingLeft="@dimen/paddinloreVentanaPrincipal"
+        />
+
+
+    <TextView
+        android:id="@+id/tvEntendido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textoVentaPrincipal"
+        android:text="@string/textoVentanaPrincipal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/textoVentanaPrin"
+
+        />
+
+</RelativeLayout>

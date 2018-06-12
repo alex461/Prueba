@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TuRuta</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="titulo_toolbar">OPCIONES DE RUTA</string>
+    <string name="precioTaxi">S/.10</string>
+    <string name="tiempoCarrera">a 5 minutos</string>
+    <string name="botonCardText">Iniciar Viaje</string>
+    <string name="textTaxiTiempo">35 min</string>
+    <string name="textoTaxi">Taxi</string>
+    <string name="textoBus">Bus</string>
+    <string name="textBusTiempo">1h 40 min</string>
+    <string name="textoBusParadero">Paradero Cristo Redentor</string>
+    <string name="textoVentanaPrincipal">Entendido</string>
+    <string name="loreVentanaPrincipal">Desliza con el dedo de izquierda a derecha para ver más opciones</string>
+    <string name="titulo_ventana2">Servivio Elegido</string>
+    <string name="loreVentana2">Revisa el detalle del servicio elegido y continua con tu ruta.</string>
+    <string name="lore2Ventana2">Chofer en terno Conexión PNP Música de Spotify</string>
+    <string name="lore2Ventana3">\"Rapidez y seguridad nos definen\"</string>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pictureCard"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/medidaTotalCardview"
+    android:layout_margin="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="16dp"
+    android:layout_gravity="center"
+    tools:context=".Activity.MainActivity"
+    card_view:cardCornerRadius="@dimen/cornerradius_carview">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgP1ID"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/medidaTotalCardview"
+            android:background="@drawable/group_143"
+            android:scaleType="centerCrop"
+            />
+
+
+
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iconoTaxi"
+                android:layout_width="@dimen/iconoCard"
+                android:layout_height="@dimen/iconoCard"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/group_103" />
+
+              <LinearLayout
+                  android:id="@+id/linearCentral"
+                  android:layout_centerInParent="true"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  >
+
+                  <ImageView
+                      android:layout_width="@dimen/iconoCardCentral"
+                      android:layout_height="@dimen/iconoCardCentral"
+                      android:src="@drawable/group_104"
+                      />
+
+                  <TextView
+                      android:id="@+id/precioCard"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/precioTaxi"
+                      android:textColor="@color/colorDeLetrasCard"
+                      android:textSize="@dimen/letrasPrecioCard"
+                      />
+
+              </LinearLayout>
+
+
+              <LinearLayout
+                  android:layout_below="@id/linearCentral"
+                  android:layout_centerHorizontal="true"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  >
+
+                  <ImageView
+                      android:layout_width="@dimen/segundoIconoCard"
+                      android:layout_height="@dimen/segundoIconoCard"
+                      android:src="@drawable/noun_1568697_cc"
+
+                      />
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="@string/tiempoCarrera"
+                      android:textSize="@dimen/subTituloCard"
+                      />
+
+              </LinearLayout>
+
+
+            <Button
+                android:id="@+id/botonCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="@string/botonCardText"
+                android:background="@drawable/degradado_boton"
+
+                />
+
+
+          </RelativeLayout>
+
+
+
+
+
+    </FrameLayout>
+
+
+
+</android.support.v7.widget.CardView>

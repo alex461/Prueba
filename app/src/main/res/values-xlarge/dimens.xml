@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="cornerradius_carview">4dp</dimen>
+    <dimen name="textsize_username_cardview">25sp</dimen>
+    <dimen name="firstword_textsize_card">15sp</dimen>
+    <dimen name="timecard_marginleft_card">5dp</dimen>
+    <dimen name="like_margintop">10dp</dimen>
+    <dimen name="subTituloCard">20dp</dimen>
+
+    <dimen name="textTaxi_busTiempo">30dp</dimen>
+    <dimen name="textTaxi_bus">60dp</dimen>
+
+    <dimen name="medidaTotalCardview">350dp</dimen>
+    <dimen name="iconoCard">50dp</dimen>
+    <dimen name="iconoCardCentral">60dp</dimen>
+    <dimen name="letrasPrecioCard">44dp</dimen>
+    <dimen name="segundoIconoCard">30dp</dimen>
+    <dimen name="longitud_de_linea">560dp</dimen>
+
+    <dimen name="baner">110dp</dimen>
+    <dimen name="fragmenContenedor">400dp</dimen>
+
+    <dimen name="alturaVentanaPrincipal">400dp</dimen>
+    <dimen name="anchuraVentanaPrincipal">300dp</dimen>
+    <dimen name="iconoVistaPrincipal">60dp</dimen>
+    <dimen name="iconoVentanaPrincipal">300dp</dimen>
+    <dimen name="textoVentaPrincipal">45dp</dimen>
+
+
+
+    <dimen name="margenBus">35dp</dimen>
+    <dimen name="botonesFloating">70dp</dimen>
+    <dimen name="padingActivity">40dp</dimen>
+    <dimen name="loreVentanaPrincipal">30dp</dimen>
+    <dimen name="paddinloreVentanaPrincipal">20dp</dimen>
+    <dimen name="tituloVentana2">30dp</dimen>
+    <dimen name="loreventana2">20dp</dimen>
+    <dimen name="marginventana2">50dp</dimen>
+
+
+</resources>

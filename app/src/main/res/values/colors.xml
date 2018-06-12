@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+
+
+
+    <color name="fondo">#FFFFFF</color>
+    <color name="fondoToolbar">#E8E8E8</color>
+    <color name="tituloToolbar">#2E2E2E</color>
+    <color name="colorDeLetrasCard">#FFFFFF</color>
+    <color name="textTaxiTiempo">#2E2E2E</color>
+    <color name="colorBotones">#FFFFFF</color>
+    <color name="textoVentanaPrin">#BA007C</color>
+    <color name="loreColor">#070707</color>
+</resources>
